@@ -38,6 +38,9 @@ p{
 h1{
 	text-align: center;
 }
+body{
+	background-color: black;
+}
 .form{
 	display: block;
 	border-radius: 5px;
