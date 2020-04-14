@@ -18,37 +18,37 @@
             <fieldset>
                 
                 <label for="data-region"><strong>Region:</strong></label><br>
-                <input type="text" id="data-region" placeholder="Africa" required><br>
+                <input type="text" data-region = "region" name = "population" id="data-region" placeholder="Africa" required><br>
 
                 <label for="data-avgAge"><strong>Region Average age:</strong></label><br>
-                <input type="number" id="data-avgAge" placeholder="Enter average age for this region" required><br>
+                <input type="number" avgAge = "population" name= "average Age" id="data-avgAge" placeholder="Enter average age for this region" required><br>
 
                 <label for="data-avgDailyIncomeInUSD"><strong>Region Average Daily Income (USD):</strong></label><br>
-                <input type="number" id="data-avgDailyIncomeInUSD" placeholder="Enter daily population income in USD" required><br>
+                <input type="number" avgAge="population" name = "Average Age" id="data-avgDailyIncomeInUSD" placeholder="Enter daily population income in USD" required><br>
 
                 <label for="data-avgDailyIncomePopulation"><strong>Region Average Daily Income Population:</strong></label><br>
-                <input type="number" id="data-avgDailyIncomePopulation" placeholder="Enter average income population for this region" required><br>
+                <input type="number" data-avgDailyIncomePopulation ="population" name = "Average Age" id="data-avgDailyIncomePopulation" placeholder="Enter average income population for this region" required><br>
 
                 <label for="population"><strong>Population:</strong></label><br>
-                <input type="number" id="population" placeholder="Enter population for region/city..." required><br>
+                <input type="number" data-population = "population" name="Population" id="population" placeholder="Enter population for region/city..." required><br>
 
                 <label for="data-time-to-elapse"><strong>Time To Elapse:</strong></label><br>
-                <input type="number" id="data-time-to-elapse" placeholder="Enter Time in Days/Weeks/Months..." required><br>
+                <input type="number" data-time-to-elapse="timeToElapse" name="population" id="data-time-to-elapse" placeholder="Enter Time in Days/Weeks/Months..." required><br>
 
                 <label for="data-reported-cases"><strong>Reported Cases:</strong></label><br>
-                <input type="number" id="data-reported-cases" placeholder="Home many reported cases?" required><br>
+                <input type="number" data-reported-cases="reportedCases" name ="Period" id="data-reported-cases" placeholder="Home many reported cases?" required><br>
 
                 <label for="data-total-hospital-beds"><strong>Total Hospital Beds:</strong></label><br>
-                <input type="number" id="data-total-hospital-beds" placeholder="How many availaible beds?" required><br>
+                <input type="number" ata-total-hospital-beds="totalHospitalBeds" name="Beds" id="data-total-hospital-beds" placeholder="How many availaible beds?" required><br>
 
                 <label for="data-period-type">Period Type:</label><br>
-                <select id="data-period-type" required>
+                <select data-period-type="periodType" name ="PeriodType" id="data-period-type" required>
                     <option value="Days">Days</option>
                     <option value="Weeks">Weeks</option>
                     <option value="Months">Months</option>
                 </select>
 
-                <input type="submit" value="Check Estimates" id="data-go-estimate">
+                <input type="submit" data-go-estimate="data-go-estimate" value="Check Estimates" id="data-go-estimate">
             </fieldset>
         </form>
 	</div>
