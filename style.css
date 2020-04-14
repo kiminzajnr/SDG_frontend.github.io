@@ -60,13 +60,3 @@ input, select{
 	width: 500px; height: 48px;
 	font-family: cursive;
 }
-footer{
-	padding: 5px 10px;
-	text-align: center;
-	background: #1abc9c;
-	color: white;
-	font-size: 20px;
-	border-radius: 4px;
-	border: none;
-
-}
