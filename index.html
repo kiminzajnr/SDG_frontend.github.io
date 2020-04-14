@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Covid19 Estimator</title>
+	<style type="text/css">
+		fieldset, input{
+			width: 50%;
+			padding: 12px 20px;
+			display:inline-block;
+			border:1px solid #ccc;
+			border-radius:4px;
+			box-sizing: border-box;
+			margin: 8px 0;
+		}
+		label{
+			color: black;
+		}
+		input[type=submit]{
+			width: 700px;
+			background-color: #4CAF50;
+			color: white;
+			padding: 14px 20px;
+			margin: 8px 0;
+			border: none;
+			cursor: pointer;
+			border-radius: 4px;
+			box-sizing: border-box;
+		}
+		input[type=submit]:hover{
+			background-color: #45a049;
+		}
+		select{
+			padding: 12px 20px;
+			width: 50%;
+			margin: 8px 0;
+			box-sizing: border-box;
+			border-radius: 4px;
+			border:none;
+			display: inline-block;
+		}
+		body{
+			background-color:#ffe6e6;
+		}
+		p{
+			text-align: center;
+		}
+		h1{
+			text-align: center;
+		}
+		.form{
+			display: block;
+			border-radius: 5px;
+			background-color: #f2f2f2;
+			padding: 20px;
+			color: white;
+			text-align: center;
+			align-content: center;
+			
+
+		}
+	</style>
+</head>
+<body>
+	<header>
+	<h1>Covid19 Estimator</h1>
+	<p><font size="+2">This is the <u>novel coronovirus</u> estimator that can help the society and african leaders prepare for the big problem of the <u>Covid-19 pandemic</u></font></p>
+</header>
+	<div>
+		<form action="" class="form" method="post">
+            <fieldset>
+                
+                <label for="data-region">Region:</label><br>
+                <input type="text" data-region="Region" name="Population" id="data-region" placeholder="Africa" required><br>
+
+                <label for="data-avgAge">Region Average age:</label><br>
+                <input type="number" avgAge ="population" name="Average Age" id="data-avgAge" placeholder="Enter average age for this region" required><br>
+
+                <label for="data-avgDailyIncomeInUSD">Region Average Daily Income (USD):</label><br>
+                <input type="number" avgAge="population" name="Average Age" id="data-avgDailyIncomeInUSD" placeholder="Enter daily population income in USD" required><br>
+
+                <label for="data-avgDailyIncomePopulation">Region Average Daily Income Population:</label><br>
+                <input type="number" data-avgDailyIncomePopulation ="population" name="Average Age" id="data-avgDailyIncomePopulation" placeholder="Enter average income population for this region" required><br>
+
+                <label for="data-population">Population:</label><br>
+                <input type="number" data-population="population" name="Population"id="data-population" placeholder="Enter population for region/city..." required><br>
+
+                <label for="data-time-to-elapse">Time To Elapse:</label><br>
+                <input type="number" data-time-to-elapse="timeToElapse" name="Period" id="data-time-to-elapse" placeholder="Enter Time in Days/Weeks/Months..." required><br>
+
+                <label for="data-reported-cases">Reported Cases:</label><br>
+                <input type="number" data-reported-cases="reportedCases" name="Reported Cases" id="data-reported-cases" placeholder="Home many reported cases?" required><br>
+
+                <label for="data-total-hospital-beds">Total Hospital Beds:</label><br>
+                <input type="number" data-total-hospital-beds="totalHospitalBeds" name="Beds" id="data-total-hospital-beds" placeholder="How many availaible beds?" required><br>
+
+                <label for="data-period-type">Period Type:</label><br>
+                <select data-period-type="periodType" id="data-period-type" name="periodType" required>
+                    <option value="Days">Days</option>
+                    <option value="Weeks">Weeks</option>
+                    <option value="Months">Months</option>
+                </select>
+
+                <input type="submit" data-go-estimate="data-go-estimate"  value="Check Estimates" id="data-go-estimate">
+            </fieldset>
+        </form>
+	</div>
+	<footer>
+		<p>The novel corona virus estimator - BuildforSDGs Andela assessment Project by Erick Kiminza, Copyright &copy; 2020</p></p>
+	</footer>
+
+</body>
+</html>
