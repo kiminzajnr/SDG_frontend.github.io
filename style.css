@@ -7,8 +7,8 @@ fieldset, input{
 	box-sizing: border-box;
 	margin: 8px 0;
 }
-label{
-	color: black;
+::placeholder{
+	font-size: 15px;
 }
 input[type=submit]{
 	background-color: #4CAF50;
@@ -39,16 +39,17 @@ h1{
 	text-align: center;
 }
 body{
-	background-color: #FAFAFA;
+	background-color: white;
 	font-size: 19px;
 }
 label{
-	color: #2424FF;
+	color: hsla(200,0%,0%,.7);
+	text-align: left;
 }
 .form{
 	display: block;
 	border-radius: 5px;
-	background-color: #FAFAFA;
+	background-color: white;
 	padding: 20px;
 	text-align: center;
 }
