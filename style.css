@@ -11,17 +11,13 @@ fieldset, input{
 	font-size: 15px;
 }
 input[type=submit]{
-	background-color: #4CAF50;
-	color: white;
+	color: black;
 	padding: 14px 20px;
 	margin: 8px 0;
 	border: none;
 	cursor: pointer;
 	border-radius: 4px;
 	box-sizing: border-box;
-}
-input[type=submit]:hover{
-	background-color: #45a049;
 }
 select{
 	padding: 12px 20px;
