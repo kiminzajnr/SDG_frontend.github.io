@@ -40,14 +40,15 @@ h1{
 }
 body{
 	background-color: #FAFAFA;
+	font-size: 19px;
 }
 label{
-	color: white;
+	color: #2424FF;
 }
 .form{
 	display: block;
 	border-radius: 5px;
-	background-color: black;
+	background-color: #FAFAFA;
 	padding: 20px;
 	text-align: center;
 }
